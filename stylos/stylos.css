@@ -1,0 +1,59 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, Helvetica, sans-serif}
+body{background:#fff}
+.container{width:100%}
+
+/* IMAGEN 1 */
+.hero-img{position:relative;width:100%;height:100vh}
+.hero-img img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-img h1{position:absolute;top:50%;width:100%;text-align:center;color:#fff;font-size:5vw;transform:translateY(-50%);font-weight:800;letter-spacing:3px}
+.hero-img h1 span{font-weight:300;opacity:.6}
+
+/* IMAGEN 2 Y 3 */
+.white{display:flex;align-items:center;padding:80px 60px;gap:40px;min-height:60vh;background:#fff}
+.text{flex:1}
+.img-box{flex:1;display:flex;justify-content:center}
+.img-box img{width:90%;max-width:400px;height:500px;object-fit:cover}
+.white h2{font-size:2.8vw;line-height:1.1;font-weight:800;color:#000}
+.white h2 span{color:#ff1641}
+.white p{font-size:16px;color:#777;margin:20px 0;line-height:1.6}
+.btn{background:#ff1641;color:#fff;padding:12px 28px;border-radius:30px;text-decoration:none;font-size:12px;display:inline-block}
+
+/* IMAGEN 4 */
+.dark-img{position:relative;width:100%;height:75vh}
+.dark-img img{width:100%;height:100%;object-fit:cover;display:block}
+.dark-text{position:absolute;top:50%;right:60px;transform:translateY(-50%);width:40%;color:#fff}
+.dark-text h2{font-size:2.5vw;font-weight:800}
+.dark-text p{font-size:15px;margin:15px 0}
+
+/* FOOTER EXACTO COMO TU FOTO */
+footer{background:#ff0f3d;color:#fff;padding:70px 100px 20px 100px}
+.footer-top{display:flex;justify-content:space-between;max-width:1100px;margin:0 auto}
+.col h4{font-size:12px;font-weight:400;margin-bottom:22px;opacity:0.95}
+.col p{font-size:12px;line-height:2.3;opacity:0.9}
+.footer-bottom{
+  max-width:1100px;
+  margin:60px auto 0 auto;
+  padding-top:0;
+  display:flex;
+  justify-content:space-between;
+  font-size:10px;
+  opacity:0.85;
+}
+
+/* LA LINEA DEL VIDEO */
+.linea-footer{
+  width:100%;
+  max-width:1100px;
+  height:1px;
+  background:rgba(255,255,255,0.3);
+  margin:60px auto 15px auto;
+}
+.footer-bottom{
+  max-width:1100px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  font-size:10px;
+  opacity:0.8;
+  padding-bottom:10px;
+}
